@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+# 数据与模型
+TaxiBJ/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+checkpoints/
+_smoke/
+
+# 本地实验记录
+wandb/
+
+# 本地环境与凭据
+.env
+.env.*
+!.env.example
+.venv/
+.vscode/
+.idea/
